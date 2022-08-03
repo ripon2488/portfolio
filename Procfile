@@ -1,2 +1,1 @@
-web: gunicorn riponportfolioproject.wsgi
---log-file -
+web: gunicorn riponportfolioproject.wsgi --log-file -
